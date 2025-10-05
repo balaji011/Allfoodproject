@@ -1,0 +1,41 @@
+$primary-color:red;
+$secondary-color:pink;
+$padding:20px;
+h1{
+    color: $primary-color;
+}
+h2{
+    color: $secondary-color;
+}
+
+@mixin theme($theme:DarkGrey){
+    background: $theme;
+    box-shadow: 0 0 1px rgba($theme,0.5);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+@mixin box($color:red){
+background-color: $color;
+color: #fff;
+width: 100%;
+max-width: 1200px;
+padding: 60px 70px;
+text-align: center;
+}
+
+.info{
+    @include theme($theme:red);
+}
+/* .info-1{
+    @include theme($theme:aliceblue)
+} */
+.info-2{
+    @include theme($theme:orange)
+}
+.info-3{
+@include box()
+}
+.info-1{
+    @include box($color:aliceblue)
+}

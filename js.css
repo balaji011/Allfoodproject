@@ -1,0 +1,42 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  color: pink;
+}
+
+.info {
+  background: red;
+  box-shadow: 0 0 1px rgba(255, 0, 0, 0.5);
+  color: #fff;
+  width: 100px;
+  height: 100px;
+}
+
+.info-1 {
+  background: aliceblue;
+  box-shadow: 0 0 1px rgba(240, 248, 255, 0.5);
+  color: #fff;
+  width: 100px;
+  height: 100px;
+}
+
+.info-2 {
+  background: orange;
+  box-shadow: 0 0 1px rgba(255, 165, 0, 0.5);
+  color: #fff;
+  width: 100px;
+  height: 100px;
+}
+
+.info-3 {
+  background-color: red;
+  color: #fff;
+  width: 100%;
+  max-width: 1200px;
+  padding: 60px 70px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=js.css.map */
